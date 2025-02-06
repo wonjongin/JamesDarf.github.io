@@ -14,19 +14,19 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Team-TOOR # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Team of Offensive Research in TeamH4C # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  순천향대학교 정보보호학과 임강빈 교수님 지도 하에 22년 8월에 학술 동아리로 결성되었으며, 23년 6월부터 국내 해킹 팀으로서 활동 중에 있습니다. 24년 1월 1일부터 TeamH4C와 합병하여 팀명이 TeamH4C:TOOR로 변경되었습니다.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: ""
 
 github:
-  username: github_username # change to your github username
+  username: Team-TOOR # change to your github username
 
 twitter:
   username: twitter_username # change to your twitter username
