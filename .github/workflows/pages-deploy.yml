@@ -24,7 +24,7 @@ jobs:
         run: |
           for file in assets/img/*
           do
-              if [[ $file != "assets/img/favicons" ]]
+              if [[ $file != "assets/img/logo.png" ]]
               then
                   rm -rf "$file"
               fi
