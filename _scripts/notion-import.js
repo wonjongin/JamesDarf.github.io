@@ -106,6 +106,13 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
       }
     }
 
+    // author
+    let author;
+    let pauthor = r.properties?.["작성자"]?.["people"][0];
+    if (pauthor) {
+      author = pauthor?.["name"];
+    }
+
     // frontmatter
     let fmtags = "";
     let fmcats = "";
@@ -124,9 +131,10 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
       fmcats += "]";
     }
     const fm = `---
-layout: post
+layout: custom_post
 date: ${date}
 title: "${title}"${fmtags}${fmcats}
+author: ${author}
 ---
 `;
     const mdblocks = await n2m.pageToMarkdown(id);
